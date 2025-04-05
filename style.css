@@ -73,10 +73,18 @@ nav a {
 }
 
 .service {
-  border: 2px solid var(--purple);
-  border-radius: 10px;
+  background-color: #f9f9f9;
+  border-left: 6px solid #C3FF83; /* lime green accent */
   padding: 1.5rem;
-  background-color: var(--light-gray);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  border-left-color: #5910E5; /* switch to dark purple on hover */
 }
 
 .service h3 {

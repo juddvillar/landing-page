@@ -1,0 +1,114 @@
+:root {
+  --purple: #5910E5;
+  --lime: #C3FF83;
+  --black: #000;
+  --white: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--black);
+  color: var(--white);
+  line-height: 1.6;
+}
+
+nav {
+  background-color: var(--purple);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+nav h1 {
+  margin: 0;
+  color: var(--white);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: var(--lime);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header, section {
+  padding: 2rem;
+}
+
+.hero {
+  background-color: var(--purple);
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  color: var(--lime);
+}
+
+.services {
+  background-color: var(--black);
+}
+
+.service {
+  border: 1px solid var(--lime);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+}
+
+.service h3 {
+  color: var(--lime);
+}
+
+.contact {
+  background-color: var(--purple);
+  padding: 3rem 2rem;
+}
+
+.contact h2 {
+  color: var(--lime);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin-top: 1rem;
+}
+
+input, select, textarea {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background-color: var(--lime);
+  color: var(--black);
+  font-weight: bold;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a5ff5f;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.85rem;
+  background-color: var(--black);
+  color: var(--white);
+}
